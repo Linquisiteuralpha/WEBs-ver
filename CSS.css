@@ -1,0 +1,147 @@
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  body.col-m-1 {
+  margin-right: 43px;
+  margin-left: 43px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For tablets: */
+  body.col-l-1 {
+  margin-right: 68px;
+  margin-left: 68px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* For tablets: */
+  body.col-k-1 {
+  margin-right: 106px;
+  margin-left: 106px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  /* For tablets: */
+  body.col-j-1 {
+  margin-right: 170px;
+  margin-left: 170px;
+  }
+}
+
+
+img{
+    width: 400px;
+    border-radius: 50%;
+    display: grid;
+}
+
+nav.sticky {
+  position: sticky;
+  top: 10px;
+}
+
+body{
+    margin-right: 170px;
+    margin-left: 170px;
+}
+
+h2{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+div {
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.ti{
+    margin-left: 10%;
+}
+.ti2{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+table > thead > tr > th {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+nav > div.container{
+	width: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 24px;
+}
+nav.sticky {
+  position: sticky;
+  top: 0px;
+}
+nav li {
+		list-style-type: none;
+		float: left;
+		border-right: 2px solid #bbb;
+}
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+nav {
+	background-color: #1E90FF;
+	width: 100%;
+	position: float;
+}
+nav a {
+	display: inline-block;
+	color: #FFF;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+}
+
+.home:hover {
+	border-bottom: 10px solid  #1c00bb;
+	background-color: rgba(41,8,255,0.50);
+}
+.etude:hover {
+	border-bottom: 10px solid #e44d26;
+	background-color: rgba(228,77,38,0.80);
+}
+.activite:hover {
+	border-bottom: 10px solid #0070bb;
+	background-color: rgba(000,112,192,0.75);
+}
+.contact:hover {
+	border-bottom: 10px solid #f1dc4f;
+	background-color: rgba(241,211,79,0.65);
+}
+nav li:hover a {
+	padding: 10px 30px 20px 30px;
+}
+
+.active1{
+	background-color: rgba(228,77,38,0.80);
+	background-color: #424558;
+}
+.active2{
+	background-color: rgba(000,112,192,0.75);
+	background-color: #424558;
+}
+.active3{
+	background-color: rgba(241,211,79,0.65);
+	background-color: #424558;
+}
+.active4{
+	background-color: rgba(220,220,220,0.75);
+	background-color: #424558;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  color: black;
+}
